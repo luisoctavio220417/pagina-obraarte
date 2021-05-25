@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMULARIO</title>
+</head>
+<body bgcolor="#1A5B6F">
+	<center>
+		<h1>OPINION PERSONAL</h1>
+		<hr>
+	</center>
+<form action="mailto:luismoci@gmail.com" method="post" enctype="text/plain"> 
+	<table align="center" width="1024" border="1">
+		<tr>
+			<td align="center" bgcolor="#8FB02C">Escribe tu nombre:
+		<br><input type="text" name="Nombre" size="50" maxlength="15"></td>
+			</tr>
+			<tr>
+			 <td align="center" bgcolor="#8FB02C">Escribe tus comentarios:
+		<br><textarea name="comentarios" rows="6" cols="40" maxlength="120"></textarea></td>
+			</tr>
+			<tr>
+				<td align="center" bgcolor="#8FB02C">¿Qué piensas de esta obra de arte?
+		<br><select name="BandProfs">
+			<option>buena</option>
+			<option>mala</option>
+			<option>aburrida</option>
+			<option>interesante</option>
+		</select></td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#8FB02C">Indica que prefieres conocer sobre arte:
+		<br>
+		historia:
+		<input type="checkbox" name="historia">
+		trayectoria:
+		<input type="checkbox" name="exhibi">
+		leyendas:
+		<input type="checkbox" name="afrodita">
+		monumentos:
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#8FB02C">lo mejor de obra:
+		<input type="radio" name="fav" value="1"> monumentos
+		<input type="radio" name="fav" value="3"> tiempos
+		<input type="radio" name="fav" value="5"> historias</td>
+		</tr>
+	</table>
+	<table align="center" bgcolor="#418F5D" width="1024" >
+		<td align="center"><input type="submit" value="Enviar" >
+		<input type="reset" value="Limpiar" ></td>
+	</table>
+	</form>
+</body>
+</html>
